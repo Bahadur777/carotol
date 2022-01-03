@@ -2,29 +2,45 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto Slab", serif;
+
 }
+
+body {
+  background-color: #E5E5E5;
+}
+
 a {
   text-decoration: none;
 }
+
 p {
   margin: 0;
 }
+
 h1,
 h2,
 h3,
 h4 {
   margin: 0;
 }
+
 ul {
   list-style: none;
 }
+
+.sm {
+  display: none;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
 }
+
 .menu-bar {
   width: 100%;
 }
+
 .menu-bar-section {
   position: relative;
   width: 100%;
@@ -33,6 +49,7 @@ ul {
   justify-content: space-between;
   height: 80px;
 }
+
 .logo-bar a img {
   position: absolute;
   width: 280px;
@@ -40,14 +57,17 @@ ul {
   left: 0;
   top: 18px;
 }
+
 .menus-list {
   display: flex;
   position: relative;
 }
+
 .menus-link {
   padding: 34px;
   color: #33caff;
 }
+
 .menus-link a {
   color: #33caff;
   text-transform: capitalize;
@@ -56,23 +76,29 @@ ul {
 .banner {
   width: 100%;
 }
+
 .banner-section {
   width: 100%;
 }
+
 .banner-row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 .banner-left {
   width: 50%;
 }
+
 .banner-left-content {
   width: 100%;
 }
+
 .banner-title {
   margin-top: 33px;
 }
+
 .banner-title h1 {
   font-size: 46px;
   line-height: 55px;
@@ -86,31 +112,38 @@ ul {
   /* or 175% */
   color: #535353;
 }
+
 .banner-form {
   width: 100%;
 }
+
 .form-label {
   width: 100%;
 }
+
 .form-label i {
   font-size: 15px;
   line-height: 24px;
   color: #c8504d;
 }
+
 .form-label span {
   font-size: 15px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.6);
 }
+
 .form-input {
   width: 100%;
 }
+
 .form-input .input-cls {
   padding: 10px 20px;
   border: 1px solid #0071bc;
   box-sizing: border-box;
   border-radius: 5px;
 }
+
 .form-btn {
   padding: 10px 10px;
   margin: 0 10px;
@@ -120,15 +153,19 @@ ul {
   border-radius: 5px;
   text-transform: capitalize;
 }
+
 .spn {
   font-size: 12px !important;
 }
+
 .banner-right {
   width: 50%;
 }
+
 .banner-right-section {
   width: 100%;
 }
+
 .banner-right-section img {
   width: 100%;
 }
@@ -137,18 +174,22 @@ ul {
   width: 100%;
   padding: 40px 0;
 }
+
 .brand-logo-section {
   width: 100%;
 }
+
 .brand-logo-row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .brand-logo {
-  width: 150px;
+  width: 20%;
 }
+
 .brand-logo img {
   width: 140px;
   height: 30px;
@@ -158,40 +199,50 @@ ul {
   width: 100%;
   background: #f5fbff;
 }
+
 .pdp {
   padding: 50px 0;
 }
+
 .website-row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 .website-left {
   width: 50%;
 }
+
 .website-left-section {
   width: 100%;
 }
+
 .website-left-section img {
   width: 90%;
   height: 365px;
 }
+
 .website-right {
   width: 50%;
 }
+
 .website-title {
   width: 100%;
   padding-bottom: 20px;
 }
+
 .website-title h4 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
   color: #000000;
 }
+
 .website-pragraph {
   width: 100%;
 }
+
 .website-pragraph p {
   font-family: Work Sans;
   font-style: normal;
@@ -201,10 +252,12 @@ ul {
   /* or 130% */
   color: #535353;
 }
+
 .website-button {
   width: 100%;
   padding-top: 40px;
 }
+
 .web-btn {
   padding: 5px 20px;
   background-color: transparent;
@@ -218,21 +271,26 @@ ul {
   width: 100%;
   padding: 50px 0;
 }
+
 .content-row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 .content-left {
   width: 50%;
 }
+
 .content-left-section {
   width: 100%;
 }
+
 .content-left-title {
   width: 100%;
   margin-top: 70px;
 }
+
 .content-left-title h4 {
   font-family: Work Sans;
   font-style: normal;
@@ -242,9 +300,11 @@ ul {
   /* identical to box height */
   color: #000000;
 }
+
 .content-peragraph {
   padding: 30px 0;
 }
+
 .content-peragraph p {
   font-family: Work Sans;
   font-style: normal;
@@ -254,30 +314,38 @@ ul {
   /* or 130% */
   color: #535353;
 }
+
 .content-right {
   width: 50%;
 }
+
 .content-right-section {
   width: 100%;
 }
+
 .content-right-section img {
   width: 90%;
   height: 365px;
 }
+
 .marketing-section {
   width: 100%;
 }
+
 .marketing-row {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .marketing-left {
   width: 50%;
 }
+
 .marketing-left-section {
   width: 100%;
 }
+
 .marketing-left-section img {
   width: 90%;
   height: 360px;
@@ -286,13 +354,16 @@ ul {
 .marketing-right {
   width: 50%;
 }
+
 .marketing-section {
   width: 100%;
 }
+
 .marketing-title {
   width: 100%;
   margin-top: 50px;
 }
+
 .marketing-title h4 {
   font-style: normal;
   font-weight: bold;
@@ -301,10 +372,12 @@ ul {
   /* identical to box height */
   color: #000000;
 }
+
 .marketing-pragraph {
   width: 100%;
   padding: 40px 0;
 }
+
 .marketing-pragraph p {
   font-style: normal;
   font-weight: normal;
@@ -318,14 +391,17 @@ ul {
 .digitize-section {
   width: 100%;
 }
+
 .digitize-top-content {
   padding: 20px 0;
 }
+
 .digitize-title {
   width: 70%;
   margin: 0 auto;
   text-align: center;
 }
+
 .digitize-title h4 {
   font-style: normal;
   font-weight: bold;
@@ -334,11 +410,13 @@ ul {
 
   color: #0071bc;
 }
+
 .digitize-pra {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
+
 .digitize-pra p {
   font-style: normal;
   font-weight: normal;
@@ -354,16 +432,19 @@ ul {
 .dizitize-card-section {
   width: 100%;
 }
+
 .digitize-card-row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .digitize-card {
   width: 33%;
   padding-bottom: 10px;
 }
+
 .card-content {
   background: #ffffff;
   border: 2px solid #f0f0f0;
@@ -372,10 +453,12 @@ ul {
   border-radius: 8px;
   padding: 10px;
 }
+
 .card-title {
   width: 100%;
   padding: 15px 0;
 }
+
 .card-title h4 {
   font-style: normal;
   font-weight: 500;
@@ -385,26 +468,31 @@ ul {
 
   color: #000000;
 }
+
 .card-img {
   width: 70px;
   height: 70px;
   background: #0071bc46;
   border-radius: 50%;
 }
+
 .card-img img {
   width: 50px;
   height: 50px;
   padding: 10px;
 }
+
 .card-text {
   width: 100%;
 }
+
 .card-text p {
   font-size: 16px;
   line-height: 21px;
   /* or 131% */
   color: #535353;
 }
+
 .rtbc {
   background: #ffffff;
   border: 2px solid #f0f0f0;
@@ -413,22 +501,635 @@ ul {
   border-radius: 8px;
 }
 
-.clients-section{
-    width: 100%;
-    padding: 70px 0;
+.clients-section {
+  width: 100%;
+  padding: 70px 0;
 }
-.clients-title{
+
+.clients-title {
+  width: 100%;
+  text-align: center;
+}
+
+.clients-title h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+  color: #0071bc;
+}
+
+.clients-section-content {
+  width: 100%;
+}
+
+.clients-section-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.clients-section-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients-left {
+  width: 50%;
+}
+
+.clients-images {
+  width: 100%;
+  text-align: center;
+}
+
+.clients-images img {
+  width: 70%;
+}
+
+.clients-right {
+  width: 50%;
+}
+
+.clients-content {
+  width: 100%;
+}
+
+.clients-quotes {
+  color: #0071bc;
+  font-size: 40px;
+}
+
+.clients-content-pra {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.clients-content-pra p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  color: #414141;
+}
+
+.name-c {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  color: #414141;
+}
+
+.f-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  color: #414141;
+}
+
+.office-name {
+  color: #0071bc;
+}
+
+.clients-change {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.left-change {
+  width: 50px;
+  height: 50px;
+  background: #D7D7D7;
+  border-radius: 34px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin: 0px 21px;
+  padding: 3px 5px;
+}
+
+.left-change i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E5E5E5;
+}
+
+.right-change {
+  background: #0071BC;
+  border-radius: 34px;
+  width: 50px;
+  height: 50px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  padding: 3px 7px;
+}
+
+.right-change i {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #E5E5E5;
+}
+
+.newsletter-section {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.newsletter {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #0071bc;
+  border-radius: 5px;
+  padding: 30px 0;
+}
+
+.newsletter-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-left {
+  width: 35%;
+}
+
+.newsletter-image {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-image img {
+  width: 100%;
+  text-align: center;
+}
+
+.newsletter-right {
+  width: 65%;
+}
+
+.newsletter-right-content {
+  width: 100%;
+}
+
+.newsletter-title h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.newsletter-form {
+  padding: 20px 0;
+}
+
+.form-fild {
+  width: 100%;
+
+}
+
+.fild {
+  padding: 10px 20px;
+  border: 1px solid #ffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.newsletter-btn {
+  padding: 5px 10px;
+  background-color: #ffff;
+  color: #0071bc;
+  border: none;
+  border-radius: 5px;
+}
+
+.fild-label {
+  padding: 3px 15px;
+}
+
+.fild-label span i {
+  color: red;
+}
+
+.label {
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+.rtb {
+  font-size: 10px;
+  line-height: 24px;
+  /* or 160% */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-section {
+  width: 100%;
+  background-color: #12334B;
+
+
+}
+
+.footer-img {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.footer-logo {
+  width: 200px;
+
+}
+
+.footer-social-icons {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 21px;
+
+}
+
+.fb i {
+  color: #ffff;
+
+}
+
+.instagram i {
+  color: #ffffff;
+}
+
+.line {
+  height: 1px;
+  background-color: #ffff;
+  width: 100%;
+}
+
+.footer-copyright {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-copyright span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+
+  .banner-left-content {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .banner-left {
     width: 100%;
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .banner-title {
     text-align: center;
+  }
+
+  .banner-title h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .banner-pragraph {
+    text-align: center;
+  }
+
+  .banner-pragraph p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .form-input .input-cls {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-btn {
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .brand-tag {
+    padding: 20px 0;
+  }
+
+  .brand-logo-row {
+    justify-content: center;
+  }
+
+  .brand-logo {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  .website-left {
+    width: 100%;
+  }
+
+  .website-right {
+    width: 100%;
+  }
+
+  .website-right-section {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .website-button {
+    padding-top: 20px;
+  }
+
+  .sm {
+    display: block;
+  }
+
+  .content-left {
+    width: 100%;
+  }
+
+  .content-left-section {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .content-right-section {
+    display: none;
+  }
+
+  .marketing-left {
+    width: 100%;
+  }
+
+  .marketing-right {
+    width: 100%;
+  }
+
+  .marketing-pragraph {
+    padding: 10px 0;
+  }
+
+  .content-section {
+    padding: 10px 0;
+  }
+
+  .content-left-title {
+    margin-top: 10px;
+  }
+
+  .content-peragraph {
+    padding: 10px 0;
+  }
+
+  .marketing-section {
+    text-align: center;
+  }
+
+  .digitize-card {
+    width: 100%;
+  }
+
+  .clients-section {
+    padding: 20px 0;
+  }
+
+  .clients-left {
+    width: 100%;
+  }
+
+  .clients-right {
+    width: 100%;
+  }
+
+  .newsletter-left {
+    width: 100%;
+  }
+
+  .newsletter-right {
+    width: 100%;
+  }
+
+  .newsletter-right-content {
+    padding-top: 18px;
+  }
+
+  .newsletter-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .fild {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-fild {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
 }
-.clients-title h4{
-    font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 38px;
-/* identical to box height */
 
-text-align: center;
+@media only screen and (min-width: 600px) {
+  .sm {
+    display: none;
+  }
 
-color: #0071BC;
+  .banner-right {
+    display: none;
+  }
+
+  .banner-left {
+    width: 100%;
+  }
+
+  .banner-left-content {
+    width: 80%;
+    margin: 0 auto;
+
+  }
+
+  .banner-title h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .banner-pragraph p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .banner-title {
+    margin-top: 18px;
+    text-align: center;
+  }
+  .banner-pragraph{
+    text-align: center;
+  }
+  .form-input .input-cls{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form-btn{
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+  .brand-logo-row{
+    justify-content: space-evenly;
+  }
+  .brand-logo{
+    width: 33%;
+    padding: 10px 0;
+  }
+  .website-pragraph p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .website-button{
+    padding-top: 20px;
+  }
+  .content-peragraph p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .marketing-pragraph p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .clients-content-pra p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .digitize-card{
+    width: 49%;
+  }
+  .newsletter-title{
+    padding-right: 10px;
+  }
+  .newsletter-title h2{
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .form-fild{
+    width: 90%;
+    
+  }
+  .fild{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .newsletter-btn{
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width: 992px) {
+  .banner-left{
+    width: 50%;
+  }
+  .banner-right{
+    display: block;
+  }
+  .brand-logo{
+    width: 20%;
+  }
+  .form-input .input-cls{
+    width: 62%;
+    display: inline-block;
+  }
+  .form-btn{
+    width: 33%;
+    display: inline;
+  }
+  .website-pragraph p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .content-peragraph p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .marketing-pragraph p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .digitize-card{
+    width: 33%;
+  }
+  .clients-content-pra p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .newsletter-title h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .fild{
+    display: inline;
+    width: 55%;
+  }
+  .newsletter-btn{
+    width: 33%;
+    padding: 10px;
+  }
 }
